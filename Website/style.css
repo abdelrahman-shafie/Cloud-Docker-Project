@@ -1,0 +1,103 @@
+body {
+  background-image:
+        linear-gradient(to bottom, rgba(2, 5, 106, 0.755), rgba(207, 210, 207, 0.634)), url('CloudBackground.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  background-size: 100%;
+  margin: 0;
+  padding: 20px;
+  height: 94vh;
+}
+
+
+header {
+text-align: center;
+margin-bottom: 20px;
+}
+
+h1 {
+font-size: 2em;
+margin-bottom: 10px;
+padding: 0%;
+margin-top: 0%;
+color: rgb(255, 255, 255);
+}
+
+hr{
+  border: 1px solid #ffffff;
+  width: 10vw;
+  margin: 0 auto;
+
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:0vh;
+
+}
+
+h2 {
+margin-bottom: 5px;
+}
+
+p {
+margin-bottom: 5px;
+}
+.Names {
+  display: flex;
+  justify-content:space-between;
+  width: 80%;
+  margin: 0 auto;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+button {
+  background-color: #4b92be; 
+  border: 1px solid rgb(40, 40, 40);
+  color: rgb(40, 40, 40);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px; /* Rounded corners */
+  position: relative;
+  top: 190px; /* Adjust the value to lower the position */
+  transition: transform 0.3s ease; /* Add transition for smooth movement */
+}
+
+button:hover {
+  transform: translateY(-5px);
+  color:white;
+  background-color: #00395f;
+}
+
+#team-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  height: 50vh;
+  background-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 1px 1px 2px 1px #00000072;
+  border: #00395f 2px solid;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+}

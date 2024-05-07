@@ -1,0 +1,32 @@
+version: '3'
+services:
+  website:
+    build:
+      context: ./Website
+      dockerfile: website.dockerfile
+    ports:
+      - "8080:80"
+    depends_on:
+      - node
+      - database
+  database:
+    build:
+      context: ./Database_MySQL_Code
+      dockerfile: database.dockerfile
+    volumes:
+      - mysql-data:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: rootadmin
+      MYSQL_DATABASE: group_database
+    ports:
+      - "3307:3306"
+  node:
+    build:
+      context: ./Website
+      dockerfile: node.dockerfile
+    ports:
+      - "3000:3000"
+    depends_on:
+      - database
+volumes:
+  mysql-data:
