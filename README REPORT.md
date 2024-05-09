@@ -16,7 +16,7 @@
     * Located in the Website folder alongside frontend files.
     * Developed using Node.js and Express.js.
     * Utilizes additional dependencies listed in `package.json`.
-    * Key file:
+    * Key files:
         *  `server.js`: Implements the API logic, retrieves data from the database, and returns it to the frontend.
         *  `node.dockerfile`: Defines the configuration for the node container.
     
