@@ -21,9 +21,11 @@
         *  `node.dockerfile`: Defines the configuration for the node container.
     
 * **Database:**
+    * Loated in the `Database_MySQL_Code` folder.
     * Managed through a MySQL database container.
-    * Database schema defined in `group_table.sql` located in the `Database_MySQL_Code` folder.
-    * Dockerfile (`database.dockerfile`) in the `Database_MySQL_Code` folder defines the configuration for the database container.
+    * Key file:
+        * `group_table.sql`: Defines the database schema.
+        * `database.dockerfile`: Defines the configuration for the database container.
       
 * **Docker:**
     * `docker-compose.yml` file defines the service configuration for all application components (frontend, backend, database).
