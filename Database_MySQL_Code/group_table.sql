@@ -16,4 +16,4 @@ INSERT INTO students (ID, name, age, CGPA, department) VALUES
 (2206166, 'Mohamed Ezzat', 19, 2.94, 'Cyber Security'),
 (2206213, 'Mahmoud Mohamed', 19, 2.09, 'Cyber Security'),
 (2103116, 'Eyad Tamer Shehata', 20, 2.91, 'Intelligent Systems'),
-(2022132, 'Khaled Ahmed Mansour', 20, 2.88, 'Intelligent Systems');
+(20221320444, 'Khaled Ahmed Mansour', 20, 2.88, 'Intelligent Systems');
