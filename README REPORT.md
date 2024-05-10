@@ -29,6 +29,7 @@
       
 * **Docker:**
     * `docker-compose.yml` file defines the service configuration for all application components (frontend, backend, database).
+    * Utilizes a volume to persist the database data, ensuring information is retained even when the container restarts.
     * Enables building and running the entire system in isolated containers, ensuring consistency and simplifying deployment.
 
 **Functionality:**
